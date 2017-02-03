@@ -30,4 +30,5 @@ server.listen(port, function () {
 
 app.get("/", function(req, res) {
     return res.render('main');
+    console.log("what");
 });
